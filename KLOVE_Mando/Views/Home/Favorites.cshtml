@@ -1,0 +1,33 @@
+﻿@model List<Verse>
+@{
+    ViewData["Title"] = "My Favorites";
+}
+<h1>@ViewData["Title"]</h1>
+
+@if (Model.Count > 0)
+{
+    <div class="row" style="margin-top:20px;">
+
+        @foreach (var verse in Model)
+        {
+            string animation = "card animate__animated animate__fadeInUp";
+
+            <div class="col-sm-6 col-lg-4">
+                <div class="@animation" style="width: 22rem; margin:5px;">
+                    <img class="card-img-top" src="@verse.ImageLink" alt="@verse.ReferenceText">
+                    <div class="card-body">
+                        <h5 class="card-title">@verse.ReferenceText</h5>
+                        <p class="card-text" style="max-height:250px;">@verse.VerseText</p>
+                        <a href="@verse.BibleReferenceLink" class="btn btn-outline-warning" target="_blank">NTL Read</a>
+
+                        <a href="@verse.getSocialLink(Verse.Social.FACEBOOK)" class="fa fa-facebook social" target="_blank"></a>
+                        <a href="@verse.getSocialLink(Verse.Social.TWITTER)" class="fa fa-twitter social" target="_blank"></a>
+                        <a href="@verse.getSocialLink(Verse.Social.PINTEREST)" class="fa fa-pinterest social" target="_blank"></a>
+                    </div>
+                </div>
+            </div>
+        }
+
+    </div>
+}
+

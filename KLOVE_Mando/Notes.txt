@@ -1,0 +1,31 @@
+﻿/// EXAMPLE OF API PAYLOAD.
+
+{
+	"Verses": [{
+		"VerseText": "For God has not given us a spirit of fear and timidity, but of power, love, and self-discipline.",
+		"ImageLink": "https://www.klove.com:443/-/media/assets/cloud/klove/images/ministry/verse/2020/05-2020/20200506-2-timothy-1-7.jpg",
+		"VerseDate": "2020-05-06T00:00:00Z",
+		"VideoLink": "",
+		"ReferenceLink": "http://nlt.to/2%20Timothy%201",
+		"VerseNumbers": "7",
+		"Chapter": "1",
+		"Book": "2 Timothy",
+		"ReferenceText": "2 Timothy 1:7",
+		"BibleReferenceLink": "http://nlt.to",
+		"FacebookShareUrl": "u=http://www.klove.com/ministry/verse-of-the-day?d=05/06/2020",
+		"TwitterShareUrl": "text=K-LOVE's Verse of the Day. 2 Timothy 1:7 NLT&url=http://www.klove.com/ministry/verse-of-the-day?d=05/06/2020",
+		"PinterestShareUrl": "media=https://www.klove.com:443/-/media/assets/cloud/klove/images/ministry/verse/2020/05-2020/20200506-2-timothy-1-7.jpg&description=K-LOVE's Verse of the Day. For God has not given us a spirit of fear and timidity, but of power, love, and self-discipline. 2 Timothy 1:7 NLT&url=http://www.klove.com/ministry/verse-of-the-day?d=05/06/2020",
+		"IsValid": false,
+		"Id": "{2015019D-E597-4928-ABB6-87E693DD3EF7}",
+		"Url": "http://www.klove.com/ministry/verse-of-the-day?d=05/06/2020"
+	}],
+	"PageSize": 1,
+	"PageNumber": 1,
+	"HasMorePages": true,
+	"Id": null,
+	"Url": null
+}
+
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart-fill" viewBox="0 0 16 16">
+  <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z"/>
+</svg>

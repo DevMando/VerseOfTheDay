@@ -1,0 +1,31 @@
+﻿.fa {
+    text-align: right;
+    float: right;
+    text-decoration: none;
+}
+
+.fa-facebook {
+    color:darkblue;
+}
+
+.fa-twitter {
+   color:dodgerblue;
+}
+
+.fa-pinterest {
+    color: darkred;
+}
+
+.card-text{
+    max-height:150px;
+}
+
+.btn-block{
+    margin-top:20px;
+}
+
+.welcome-image {
+    max-height: 300px;
+    max-width:400px;
+    background-size: cover;
+}
