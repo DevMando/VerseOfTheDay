@@ -2,6 +2,7 @@
 #### Date: 04/12/2021 ####
 #### Author: Armando Fernandez #### 
 #### Email: codefilez@gmail.com ####
+#### Description: This was a take-home challenge given to me in an interview round. The requirements below are exactly what the interviewees provided me with. The company was a Christian based radio station.
 #### ***IMPORTANT***: Before running the project, you must define the HEADER KEY & VALUE, required by the Verse of the Day API Definition, as they key and its value where excluded to prevent exposure in Github. ####
 ####
 - You can define the values for the key and value in file KLOVE_Mando/Models/Bible.cs (lines 47 & 48).
